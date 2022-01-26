@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="robot, ynov, toulouse, ydays, atelier, robotique">
+    <meta name="description" content="Fabrication d'un robot.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@1.3.4/dist/css/axentix.min.css" />
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js" defer></script>
+
+<!--Cache-->
+<!--End Cache-->
+
+    <title>Le robot</title>
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+
+<body>
+<!-- Principal conteneur -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<header>
+	<div class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
+			<nav class="navbar2 row">
+				<div class="navbar-header">
+					<a class="navbar-brand" title="Lien vers la page d'accueil" href="index.html"><img src="img/logo.png" alt="Logo et nom de l'agence La chouette agence" height="40" /> Accueil</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="navigation">
+						<span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html" title="Lien vers la page d'accueil">Connaître l'équipe</a>
+						</li>
+						<li>
+							<a href="page2.html" title="Lien vers la page de contact">Le robot</a>
+						</li>
+						<li>
+							<a href="index.html" title="Lien vers la page d'accueil">Contact</a>
+						</li>
+						<li>
+							<a href="index.html" title="Lien vers la page d'accueil"><span class="primary-color-1">Connexion</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- bloc-0 END -->
+
+<main>
+		
+	<!-- bloc-1-presentation -->
+	<section>
+		<div class="bloc d-bloc b-parallax" id="bloc-1-hero">
+			<div class="container bloc-lg">
+				<div class="row tight-width-whitespace">
+					<div class="col-sm-12">
+						<img src="img/logo.png" class="center-block image-resize-mode" width="200" alt="Icone représentant la chouette, mascotte de l'agence" />
+						<h1 class="text-center hero-bloc-text text-dark">
+							<b>LaboRobo</b>
+						</h1>
+						<div class="text-center">
+							<button href="page2.html" title="Lien vers la page de présentation" class="btn btn-lg btn-clean btn-rd cta-hero btn-robot-blue" id="cta-hero"> <i class="fas fa-arrow-down fa-2x" style="padding: 2px 0;"></i> </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- bloc-1-presentation END -->
+
+	<!-- bloc-2-services -->
+	<section>
+		<div class="section2-container d-flex flex-row">
+			<div class="card p-2" style="width: 55%; margin-left: 10%; margin-top: 20px;">
+				<div class="card">
+					<div class="card-content ml-5">
+					  <div class="card-header font-s7" style="color: #707070"><b>Card header</b></div>
+					  <p class="font-s6 text-justify" style="line-height: 150%; color:#B1B1B1"><b>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus impedit distinctio quidem, nesciunt id
+						possimus quia, tempore fuga doloribus reiciendis facilis voluptate accusantium! Adipisci est nam soluta! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Phasellus dictum, nisl in finibus aliquet, dolor nulla euismod felis, sed finibus nunc nunc sit amet nisl. Duis id odio a nisl maximus ultricies.
+						Donec eget enim lacus. Sed non dapibus diam. Aenean ipsum erat, molestie eu consequat id, pharetra nec ex. Ut eu nisl sit amet metus vestibulum molestie.
+						Aliquam viverra eleifend justo quis eleifend.</b>
+					  </p>
+					</div>
+				</div>
+				<div class="d-flex flex-row" style="margin-left: 5%">
+					<button type="button" class="btn grey light-3 btn-lg font-s6 rounded-4" style="color: #B1B1B1; padding-left: 2%; padding-right: 40%;">Large button</button>
+					<button type="button" class="btn blue dark-4 btn-lg font-s6 ml-5 rounded-4" style="color: #B1B1B1; padding-left: 2%; padding-right: 20%;">Large button</button>
+				</div>
+			</div>
+			<div class="card p-2 mr-5" style="width: 25%; margin-top: auto; margin-bottom: auto; margin-right: 15%;">
+					  <img src="img/texture-paper.png" alt="" height="300" class="rounded-3" >
+			</div>
+		</div>
+	</section>
+	<!-- bloc-2-services END -->
+
+	<!-- bloc-3-what-i-do -->
+	<section>
+		<div class="section3-container d-flex flex-row justify-content-between" style="width: 100%; margin: 5rem">
+			<div class="card p-2" style="width: 20%; margin: 0 2%">
+				<img class="card-img-top rounded-full" src="img/texture-paper.png" height="200" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 20%; margin: 0 2%">
+				<img class="card-img-top rounded-full" src="img/texture-paper.png" height="200" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 20%; margin: 0 2%">
+				<img class="card-img-top rounded-full" src="img/texture-paper.png" height="200" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!.</p>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 20%; margin: 0 2%">
+				<img class="card-img-top rounded-full" src="img/texture-paper.png" height="200" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- bloc-3-what-i-do END -->
+
+	<!-- bloc-4-portfolio -->
+	<section>
+		<div class="section4-container d-flex flex-row" style="margin-top: 100px;">
+			<div class="card p-2 mr-5" style="width: 25%; margin-top: auto; margin-bottom: auto; margin-left: 15%;">
+				<img src="img/texture-paper.png" alt="" height="300" class="rounded-3" >
+	  		</div>
+			<div class="card p-2" style="width: 55%; margin-right: 10%; margin-top: 20px;">
+				<div class="card">
+					<div class="card-content ml-5">
+					  <div class="card-header font-s7" style="color: #707070"><b>Card header</b></div>
+					  <p class="font-s6 text-justify" style="line-height: 150%; color:#B1B1B1"><b>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus impedit distinctio quidem, nesciunt id
+						possimus quia, tempore fuga doloribus reiciendis facilis voluptate accusantium! Adipisci est nam soluta! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Phasellus dictum, nisl in finibus aliquet, dolor nulla euismod felis, sed finibus nunc nunc sit amet nisl. Duis id odio a nisl maximus ultricies.
+						Donec eget enim lacus. Sed non dapibus diam. Aenean ipsum erat, molestie eu consequat id, pharetra nec ex. Ut eu nisl sit amet metus vestibulum molestie.
+						Aliquam viverra eleifend justo quis eleifend.</b>
+					  </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section4-container d-flex flex-row" style="margin-top: 50px;">
+			<div class="card p-2" style="width: 55%; margin-left: 10%; margin-top: 20px;">
+				<div class="card">
+					<div class="card-content mr-5">
+					  <div class="card-header font-s7" style="color: #707070"><b>Card header</b></div>
+					  <p class="font-s6 text-justify" style="line-height: 150%; color:#B1B1B1"><b>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus impedit distinctio quidem, nesciunt id
+						possimus quia, tempore fuga doloribus reiciendis facilis voluptate accusantium! Adipisci est nam soluta! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Phasellus dictum, nisl in finibus aliquet, dolor nulla euismod felis, sed finibus nunc nunc sit amet nisl. Duis id odio a nisl maximus ultricies.
+						Donec eget enim lacus. Sed non dapibus diam. Aenean ipsum erat, molestie eu consequat id, pharetra nec ex. Ut eu nisl sit amet metus vestibulum molestie.
+						Aliquam viverra eleifend justo quis eleifend.</b>
+					  </p>
+					</div>
+				</div>
+			</div>
+			<div class="card p-2 mr-5" style="width: 25%; margin-top: auto; margin-bottom: auto; margin-right: 15%;">
+				<img src="img/texture-paper.png" alt="" height="300" class="rounded-3" >
+	  		</div>
+		</div>
+	</section>
+	<!-- bloc-4-portfolio END -->
+
+	<!-- bloc-5-cta -->
+	<section>
+		<div class="section5-container d-flex flex-row">
+			<div class="card p-2" style="width: 30%; margin: 4% 4%">
+				<img class="card-img-top rounded-3 mb-5" src="img/texture-paper.png" height="200" alt="Card image cap" style="width: 100%">
+				<div class="card-body">
+					<div class="card-header font-s5 p-0 m-0" style="color: #707070"><b>Card header</b></div>
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 30%; margin: 4% 4%">
+				<img class="card-img-top rounded-3 mb-5" src="img/texture-paper.png" height="200" alt="Card image cap" style="width: 100%">
+				<div class="card-body">
+					<div class="card-header font-s5 p-0 m-0" style="color: #707070"><b>Card header</b></div>
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+			<div class="card p-2" style="width: 30%; margin: 4% 4%">
+				<img class="card-img-top rounded-3 mb-5" src="img/texture-paper.png" height="200" alt="Card image cap" style="width: 100%">
+				<div class="card-body">
+					<div class="card-header font-s5 p-0 m-0" style="color: #707070"><b>Card header</b></div>
+					<p class="card-text text-center font-s4" style="line-height: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis excepturi natus!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- bloc-5-cta END -->
+
+</main>
+
+<!-- Footer - bloc-8 -->
+<footer>
+	<div class="container">
+		<div class="grix xs3">
+		  <div class="footer-content">
+			<h6>Left side of the footer</h6>
+			<p>
+			  This is my phone number<br />
+			  01 23 45 67 89
+			</p>
+		  </div>
+		  <div class="footer-content txt-center">
+			<h6>Middle of the footer</h6>
+			<p>
+			  Welcome<br />
+			  I'm under "Welcome"
+			</p>
+		  </div>
+		  <div class="footer-content txt-right">
+			<h6>Right side of the footer</h6>
+			<p>
+			  This is my address<br />
+			  Route 12
+			</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="footer fx-center">Copyright © 2022 - Example</div>
+</footer>
+<!-- Footer - bloc-8 END -->
+
+</div>
+<!-- Principal conteneur END -->
+    
+
+</body>
+</html>
