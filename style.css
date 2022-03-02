@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 50px;
+    margin: auto;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -1081,9 +1082,10 @@ a .black:hover {
 
 .section5-container {
     background: linear-gradient(#66C4F7, #0290DF);
-    width: 100%;
+    width: 108%;
     height: 400px;
     margin-top: 50px;
+    padding: 0 50px;
     color: #B1B1B1!important;
 }
 
