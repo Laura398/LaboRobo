@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0 50px;
     margin: auto;
     background: #FFF;
     overflow-x: hidden;
@@ -55,7 +54,6 @@ img[title="Cliquez ici pour agrandir l'image"] {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1085,7 +1083,6 @@ a .black:hover {
     width: 108%;
     height: 400px;
     margin-top: 50px;
-    padding: 0 50px;
     color: #B1B1B1!important;
 }
 
