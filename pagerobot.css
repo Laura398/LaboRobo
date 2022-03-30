@@ -6,7 +6,17 @@ body {
   }
   
   
- 
+ .home-intro{
+   background-color: gray;
+   width: 100%;
+   padding: 350px;
+
+ }
+
+ h1{
+  right: 50%;
+
+ }
   
   .home-robot {
     padding: 4em 0;
