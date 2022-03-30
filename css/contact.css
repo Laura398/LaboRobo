@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
     line-height: 1.6;
-  overflow: hidden;
+  
 }
 
 body,
@@ -17,13 +17,13 @@ textarea {
 .container5 {
   position: relative;
   width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
   background-color: #fafafa;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .form {
@@ -39,7 +39,6 @@ textarea {
 }
 
 .contact-form {
- length : 300px;
   position: relative;
 }
 .contact-info{
